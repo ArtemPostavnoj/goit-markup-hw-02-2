@@ -1,0 +1,40 @@
+body{
+    background-color: #FFFFFF;
+}
+ul{
+    list-style: none;
+}
+/* Header */
+.logo{
+    color: black;
+}
+.logo-web{
+    color: #2196F3;
+}
+.link-nav{
+    color: #212121;
+}
+.link-nav:hover, 
+.link-nav:focus{
+    color: #2196F3;
+}
+.contacts-nav{
+    color: #757575;
+}
+.contacts-nav:hover, 
+.contacts-nav:focus{
+    color: #2196F3;
+}
+/* Main index */
+.banner{
+    background-color: #2F303A;
+}
+.banner-title{
+    color: #FFFFFF;
+}
+.title{
+    color: #212121;
+}
+.content{
+    color: #757575;
+}
