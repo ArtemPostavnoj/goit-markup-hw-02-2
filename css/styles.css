@@ -1,6 +1,9 @@
 body{
     background-color: #FFFFFF;
 }
+footer{
+    background-color: #2F303A;
+}
 ul{
     list-style: none;
 }
@@ -37,4 +40,24 @@ ul{
 }
 .content{
     color: #757575;
+}
+.logo-footer{
+    color: #FFFFFF;
+}
+.logo-web-footer{
+    color: #2196F3;
+}
+.address{
+    color: #FFFFFF;
+}
+.address:focus,
+.address:hover{
+    color: #2196F3; 
+}
+.contacts-footer{
+    color: rgba(255, 255, 255, 0.6);
+}
+.contacts-footer:hover,
+.contacts-footer:focus{
+    color: #2196F3;
 }
