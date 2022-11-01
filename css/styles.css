@@ -2,6 +2,8 @@ body{
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 footer{
     background-color: #2F303A;
@@ -96,6 +98,7 @@ ul{
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 .address:focus,
 .address:hover{
@@ -108,6 +111,7 @@ ul{
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
+    font-style: normal;
 }
 .contacts-footer:hover,
 .contacts-footer:focus{
@@ -121,6 +125,7 @@ ul{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    color: #FFFFFF;
 }
 .title-advances{  
     font-weight: 700;
@@ -167,8 +172,10 @@ ul{
     font-size: 16px;
     line-height: 1.625;
 }
-.button-filter:focus{
+.button-filter:focus,
+.button-filter:hover{
     background: #2196F3;
+    color: #FFFFFF;
 }
 .title-project{
     font-weight: 700;
@@ -181,4 +188,7 @@ ul{
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+}
+.current{
+    color: #2196F3;
 }
